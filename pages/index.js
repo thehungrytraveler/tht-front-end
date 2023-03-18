@@ -26,13 +26,20 @@ export default function Home() {
         </h1>
         <div>
         <label>
-      Write your post:
-      <textarea name="postContent" rows={4} cols={40} />
+      Write your prompt:
+      <br/>
+      <textarea name="postContent" rows={4} cols={100} />
     </label>
 
-      <h2>Updated: {updated}</h2>
+    <br/>
 
-      <button onClick={handleClick}>Update</button>
+      <button onClick={handleClick}>Submit</button>
+      <br/><br/>
+      <label>
+      Answer:
+      <br/><br/>
+      <textarea name="postContent" rows={20} cols={100} />
+    </label>
     </div>
       </main>
 
