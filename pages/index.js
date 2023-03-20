@@ -10,7 +10,7 @@ export default function Home() {
     console.log('prompt ', prompt);
     // Handle validations
     axios
-      .get("https://tht-service.onrender.com/web/processText", { params: {text:prompt })
+      .get("https://tht-service.onrender.com/web/processText", { params: {text:prompt } })
       //.get("http://localhost:3000/web/processText", { params: {text:prompt } })
       .then((response) => {
         console.log("return came")
