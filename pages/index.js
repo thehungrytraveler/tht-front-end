@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import { useRef, useState } from 'react';
 import axios from "axios"
 
+
 export default function Home() {
   const handleSubmit = e => {
     // Prevent the default submit and page reload
@@ -34,7 +35,7 @@ export default function Home() {
 
   
   return (
-    <div>
+    <div className="App">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
